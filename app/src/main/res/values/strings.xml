@@ -6,4 +6,9 @@
     <string name="LoginHint">Login Name</string>
     <string name="PasswordText">Password</string>
     <string name="SwitchText">What does this do?</string>
+    <string name="preference_file_key">pref_file</string>
+    <string name="dialog_message">Would you like to finish the activity?</string>
+    <string name="dialog_title">Finish Activity</string>
+    <string name="ok">Okay</string>
+    <string name="cancel">Cancel</string>
 </resources>
