@@ -11,4 +11,7 @@
     <string name="dialog_title">Finish Activity Bud?</string>
     <string name="ok">Yeah</string>
     <string name="cancel">Nah</string>
+    <string name="start_chat">Start Chat Eh?</string>
+    <string name="send_message">Full Send</string>
+    <string name="chat_placeholder">Send a Message Eh</string>
 </resources>
