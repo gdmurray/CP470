@@ -14,4 +14,12 @@
     <string name="start_chat">Start Chat Eh?</string>
     <string name="send_message">Full Send</string>
     <string name="chat_placeholder">Send a Message Eh</string>
+    <string name="menu_choice_1">Option 1</string>
+    <string name="menu_choice_2">Option 2</string>
+    <string name="menu_choice_3">Option 3</string>
+    <string name="menu_choice_4">Option 4</string>
+    <string name="toolbar_about">Aboot</string>
+    <string name="test_toolbar">Testing Toolbar</string>
+    <string name="pick_color">Do you want to go back eh?</string>
+    <string name="new_message">New Message</string>
 </resources>

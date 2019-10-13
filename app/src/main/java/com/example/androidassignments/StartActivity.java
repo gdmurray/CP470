@@ -40,6 +40,14 @@ public class StartActivity extends AppCompatActivity {
             }
         });
 
+        Button toolbarButton = (Button) findViewById(R.id.button4);
+        toolbarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(StartActivity.this, TestToolbar.class);
+                startActivityForResult(intent, 10);
+            }
+        });
         Log.i(ACTIVITY_NAME, "In onCreate()");
     }
 
