@@ -23,4 +23,12 @@
     <string name="test_toolbar">Test Toolbar</string>
     <string name="pick_color">Do you want to go back?</string>
     <string name="new_message">New Message</string>
+    <string name="title_activity_weather_forecast">WeatherForecast</string>
+    <string name="weather_button">Open Weather</string>
+    <string name="loading_weather">Loading</string>
+    <string name="dropdown_label">Current City</string>
+    <string name="current_label">Current</string>
+    <string name="max_label">Max</string>
+    <string name="min_label">Min</string>
+    <string name="temperature_label">Temperature (˚C)</string>
 </resources>
