@@ -30,4 +30,7 @@
     <string name="max_label">Max</string>
     <string name="min_label">Min</string>
     <string name="temperature_label">Temperature (˚C)</string>
+    <string name="delete_message">Delete Message</string>
+    <string name="message_here">MessageHere</string>
+    <string name="message_id">ID=</string>
 </resources>

@@ -31,4 +31,10 @@
     <string name="max_label">Max</string>
     <string name="min_label">Min</string>
     <string name="temperature_label">Temperature (˚C)</string>
+    <string name="delete_message">Delete This Message</string>
+    <string name="message_here">MessageHere</string>
+    <string name="message_id">ID=</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -194,7 +194,6 @@ public class WeatherForecast extends AppCompatActivity {
         @Override
         protected String doInBackground(String... strings) {
             try{
-                Log.i(ACTIVITY_NAME, "Download URL: " + strings[0]);
                 URL url = new URL(strings[0]);
                 HttpsURLConnection conn = (HttpsURLConnection) url.openConnection();
                 conn.setReadTimeout(10000);
@@ -203,14 +202,11 @@ public class WeatherForecast extends AppCompatActivity {
                 conn.setDoInput(true);
                 conn.connect();
 
-                Log.i(ACTIVITY_NAME, "Fetching INPUT STREAM");
                 InputStream in = conn.getInputStream();
                 XmlPullParser parser = Xml.newPullParser();
                 parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
                 parser.setInput(in, null);
                 parser.nextTag();
-
-                Log.i(ACTIVITY_NAME, "Instantiated Parser");
 
                 parser.require(XmlPullParser.START_TAG, ns, "current");
                 while (parser.next() != XmlPullParser.END_DOCUMENT) {
